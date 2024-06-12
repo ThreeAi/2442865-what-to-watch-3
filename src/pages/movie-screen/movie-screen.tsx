@@ -16,7 +16,7 @@ function MovieScreen({films}: MovieScreenProps): JSX.Element {
   const param = useParams();
 
   const id: number = param.id === undefined ? 0 : parseInt(param.id, 10);
-  const film = films.find((film) => film.id === id);
+  const film = films.find((f) => f.id === id);
   return film ? (
     <div>
       <Helmet>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { Film } from '../../types/film';
 import SmallFilmCard from '../small-film-card';
 
@@ -8,7 +8,7 @@ interface ListScreenProps {
 }
 
 function ListFilms({films}: ListScreenProps) : JSX.Element {
-  const [activeFilm, setActiveFilm] = useState<number | null>(null);
+  // const [activeFilm, setActiveFilm] = useState<number | null>(null);
   return(
     <div className="catalog__films-list">
       {films.map((film) => (
