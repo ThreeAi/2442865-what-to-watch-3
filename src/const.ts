@@ -18,3 +18,21 @@ export enum AuthorizationStatus {
   NoAuth = 'NO_AUTH',
   Unknown = 'UNKNOWN',
 }
+
+export enum TabsType {
+  Overview = "Overview",
+  Details = "Details",
+  Reviews = "Reviews",
+}
+
+export const Tabs = [
+  {
+    type: TabsType.Overview,
+  },
+  {
+    type: TabsType.Details,
+  },
+  {
+    type: TabsType.Reviews,
+  }
+]
